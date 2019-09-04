@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" 
+    content="Pousada, Aluguel, Natureza, hotel, cabanas">
+    <meta name="description" 
+    content="Aluguel de cabanas em Pelotas. Pousada no interior de Pelotas">
+    <title>Recanto da natureza</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div class="container body-content">
+        <nav>
+            <ul class="menu">
+            <li>
+              <a href="pousada.html">Principal</a>
+             </li>
+            <li>
+              <a href="hospedagem.html">Hospedagem</a>
+            </li>
+            <li>
+              <a href="reservas.html">Reservas</a>
+            </li>
+            </ul>
+        </nav>
+
+        <div id="texto">
+            <h1>Pousada</h1>
+            <h2>Recanto da Natureza</h2>
+        </div>
+
+        <img src="cabanas.jpeg" alt="Pousada" id="capa">
+     
+     <h1>Formulário de reservas</h1>
+
+     <form action="#" method="post">
+     <fieldset>
+         
+         <fieldset class="grupo">
+             <div class="campo">
+                 <label for="nome">Nome</label>
+                 <input type="text" id="nome" name="nome" style="width: 20em" value="" />
+             </div>
+             <div class="campo">
+                 <label for="snome">Sobrenome</label>
+                 <input type="text" id="snome" name="snome" style="width: 20em" value="" />
+             </div>
+         </fieldset>	
+         
+         <div class="campo">
+             <label>Sexo</label>
+             <label class="checkbox">
+                 <input type="radio" name="sexo" value="masculino"> Masculino
+             </label>
+             <label class="checkbox">
+                 <input type="radio" name="sexo" value="feminino"> Feminino
+             </label>
+         </div>
+     
+         <div class="campo">
+             <label for="email">E-mail</label>
+             <input type="text" id="email" name="email" style="width: 41em" value="" />
+         </div>
+     
+         <div class="campo">
+             <label for="telefone">Telefone</label>
+             <input type="text" id="telefone" name="telefone" style="width: 20em"  value="" />
+         </div>
+         
+         <fieldset class="grupo">
+             <div class="campo">
+                 <label for="cidade">Cidade</label>
+                 <input type="text" id="cidade" name="cidade" style="width: 20em" value="" />
+             </div>
+             <div class="campo">
+                 <label for="estado">Estado</label>
+                 <select name="estado" id="estado">
+                     <option value="">--</option>
+                     <option value="PR">PR</option>
+                     <option value="RS">RS</option>
+                     <option value="SC">SC</option>
+                     <option value="SP">SP</option>
+                     <option value="RJ">RJ</option>
+                     <option value="MG">MG</option>
+                     <option value="DF">DF</option>
+                     <option value="AC">AC</option>
+                     <option value="MT">MT</option>
+                     <option value="MS">MS</option>
+                     <option value="TO">TO</option>
+                     <option value="AL">AL</option>
+                     <option value="AP">AP</option>
+                     <option value="AM">AM</option>
+                     <option value="BA">BA</option>
+                     <option value="CE">CE</option>
+                     <option value="ES">ES</option>
+                     <option value="GO">GO</option>
+                     <option value="MA">MA</option>
+                     <option value="PA">PA</option>
+                     <option value="PB">PB</option>
+                     <option value="PE">PE</option>
+                     <option value="PI">PI</option>
+                     <option value="RO">RP</option>
+                     <option value="RR">RR</option>
+                     <option value="SE">SE</option>
+                 </select>
+             </div>
+         </fieldset>
+
+         <fieldset class="grupo">
+             <div class="campo">
+                 <label for="Cabana">Cabana</label>
+                 <input type="text" id="cabana" name="cabana" style="width: 20em" value="" />
+             </div>     
+             <div>
+                <label for="festa">Escolha a sua data para reserva:</label>
+                <input type="date" id="reservas" name="reservas" min="2019-09-05" max="2021-09-05">
+            </div>             
+         <div class="campo">
+             <label for="mensagem">Mensagem</label>
+             <textarea rows="6" style="width: 41em" id="mensagem" name="mensagem"></textarea>
+         </div>
+     
+         <div class="campo">
+             <label>Newsletter</label>
+             <label class="checkbox">
+                 <input type="checkbox" name="newsletter" value="1"> Gostaria de receber a Newsletter da empresa
+             </label>
+         </div>
+         
+         <button class="botao submit" type="submit" name="submit">Enviar</button>
+         
+     </fieldset>
+     </form>     
+
+    <div id="empresa">
+            <h3 align="right">Empresa Avenida Web Soluções</h3>
+            <img align="right" height=150 width=150 src="logo.jpg" alt="Pousada blalbalbla">
+    </div>
+
+     <footer class="fixar-rodape">
+            <p> Pousada Recanto da Natureza - Pelotas(RS)</p>
+     </footer>
+
+</body>
+</html>

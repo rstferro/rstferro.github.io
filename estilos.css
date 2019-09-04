@@ -1,0 +1,170 @@
+h1 {
+    color: crimson;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 82px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+h2 {
+    color: midnightblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 82px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+h3{
+    color: midnightblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+header img#capa{
+    display: inline;
+}
+
+#texto {
+    position: absolute;
+}
+
+p {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+table{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    background-color: darkgray;
+}
+
+td{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;    
+}
+
+@media screen and (max-width: 480px) {
+
+    header img#capa{
+        height: 90%;
+        width: 90%;
+    }
+
+    img#cab1{
+        height: 80%;
+        width: 80%; 
+    }
+    img#cab2{
+        height: 80%;
+        width: 80%;           
+    }
+
+    h1 {
+        color: crimson;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 32px;
+        text-shadow: black 0.1em 0.1em 0.2em;
+    }
+    h2 {
+        color: midnightblue;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 32px;
+        text-shadow: black 0.1em 0.1em 0.2em;
+    }
+    
+    h3{
+        color: midnightblue;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px;
+    }
+
+    #texto{
+        position: relative;
+    }
+
+    #mapa{
+        display: none;
+    }
+
+    #chegar{
+        display: none;
+    }
+}
+
+.voltar {
+    text-align: right;
+    font-size: 18px;
+    font-family: verdana;
+}
+
+.menu {
+    background-color: darkcyan;
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    font-family: verdana;   
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: darkgrey;
+    color: darkmagenta;
+}
+
+a{
+    font-family: verdana;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 60%;
+    border: 1px solid #ccc;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: darkgray;
+}
+
+img#capa{
+    width: 100%;
+    height: 50%;
+}
+
+/*Rodapé*/
+
+footer {
+    background-color: darkcyan;
+    position:absolute;
+    bottom:0;
+    width:100%;
+  }
+
+div.body-content{
+  margin-bottom: 40px;
+}
+
+footer.fixar-rodape{
+  border-top: 1px solid #333;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  position: fixed;
+  width: 100%;
+}
